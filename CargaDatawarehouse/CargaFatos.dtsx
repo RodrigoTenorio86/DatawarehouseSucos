@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="CargaFatos"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{071FC764-51D7-44FB-B271-22BE04E8901F}">
+  DTS:VersionBuild="30"
+  DTS:VersionGUID="{48742064-B7B5-4794-9388-CD1B65AE6857}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -54,7 +54,7 @@
       DTS:ObjectName="Ano_Inicial">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">2014</DTS:Property>
+        DTS:Name="ParameterValue">2018</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -63,7 +63,7 @@
       DTS:ObjectName="Mes_Final">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">2</DTS:Property>
+        DTS:Name="ParameterValue">12</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -5190,9 +5190,7 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout

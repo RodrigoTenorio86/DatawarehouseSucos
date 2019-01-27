@@ -2,23 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>CargaDatawarehouse</Name>
-    <LastWriteTime>2018-01-19T18:55:39.5128785Z</LastWriteTime>
+    <LastWriteTime>2019-01-27T21:47:24.8316926Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>CargaDimensoes.dtsx</Name>
-      <LastWriteTime>2018-01-19T18:07:08.4444989Z</LastWriteTime>
+      <LastWriteTime>2019-01-27T21:50:15.4309934Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>CargaFatos.dtsx</Name>
-      <LastWriteTime>2018-01-19T18:07:08.7092433Z</LastWriteTime>
+      <LastWriteTime>2019-01-27T21:47:24.5595118Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>CargaDatawarehouse.dtsx</Name>
-      <LastWriteTime>2018-01-19T18:55:39.4808128Z</LastWriteTime>
+      <LastWriteTime>2018-01-31T17:26:52Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

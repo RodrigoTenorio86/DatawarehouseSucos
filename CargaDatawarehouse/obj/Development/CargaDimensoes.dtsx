@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-N51LB16\Caleum"
   DTS:DTSID="{9045D21A-8C25-43E4-ABB0-A2BCD38B4B7A}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.0800.98"
+  DTS:LastModifiedProductVersion="14.0.3002.107"
   DTS:LocaleID="1046"
   DTS:ObjectName="CargaDimensoes"
   DTS:PackageType="5"
-  DTS:VersionBuild="50"
-  DTS:VersionGUID="{7FC756B6-47CD-47D6-9B74-30781FBE0DE7}">
+  DTS:VersionBuild="65"
+  DTS:VersionGUID="{2B625B7C-31EA-47DA-A64E-8182D4D43E2A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="Conexão com o Datawarehouse">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-N51LB16;Initial Catalog=DW_SUCOS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=PC-RTENORIO;Initial Catalog=DW_SUCOS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -40,7 +40,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\Anexos\REGIOES DOS ESTADOS.csv">
+          DTS:ConnectionString="C:\Users\rodrigo\Downloads\Curso Business Intelligence ETL e Integration Services Parte 2\Arquivos-Aula2\Arquivos - Aula 2\REGIOES DOS ESTADOS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ESTADO ABREVIAÇÃO"
-              DTS:DTSID="{FA034BFA-ECDC-4B09-8A58-595AD8F92F45}"
+              DTS:DTSID="{A0C0F37E-31F6-44E7-8A5D-046F4E7C7AB3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -58,7 +58,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ESTADO"
-              DTS:DTSID="{CD62319A-4AB2-4662-8AE3-B484C382DFB4}"
+              DTS:DTSID="{73955CF1-42EF-43EE-BBBE-AA9D53793C89}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -67,7 +67,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="REGIAO"
-              DTS:DTSID="{867498F3-6DD0-43D7-A71F-C5F69D910E2A}"
+              DTS:DTSID="{782D8C6A-4D76-4B20-A91D-16A86FA6FB4E}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -87,7 +87,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\Anexos\MARCAS E CATEGORIAS.csv">
+          DTS:ConnectionString="C:\Users\rodrigo\Downloads\Curso Business Intelligence ETL e Integration Services Parte 2\Arquivos-Aula3\Arquivos - Aula 3\MARCAS E CATEGORIAS.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -96,7 +96,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MARCA"
-              DTS:DTSID="{ACBC960D-39E4-4045-A5C1-505D0CB5B650}"
+              DTS:DTSID="{9B6D3217-A92A-4E7D-900A-DE37A98A6ECD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -105,7 +105,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CATEGORIA"
-              DTS:DTSID="{B3CAE8BA-E754-4186-A4B3-F12544CBA847}"
+              DTS:DTSID="{29935A64-58AA-45C1-AC4A-592DCB404AAD}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -118,7 +118,7 @@
       DTS:ObjectName="Gerenciador de Conexões do Excel">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\Anexos\CADASTRO DE CLIENTES.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\rodrigo\Downloads\Curso Business Intelligence ETL e Integration Services Parte 2\Arquivos-Aula6\Arquivos - Aula 6\CADASTRO DE CLIENTES.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -128,7 +128,7 @@
       DTS:ObjectName="Gerenciador de Conexões do Excel 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\Anexos\PRODUTOS.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\rodrigo\Downloads\Curso Business Intelligence ETL e Integration Services Parte 2\Arquivos-Aula3\Arquivos - Aula 3\PRODUTOS.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -138,7 +138,7 @@
       DTS:ObjectName="Gerenciador de Conexões do Excel 2">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\Anexos\FUNCIONARIOS GRUPO 1.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\rodrigo\Downloads\Curso Business Intelligence ETL e Integration Services Parte 2\Arquivos-Aula4\Arquivos - Aula 4\FUNCIONARIOS GRUPO 1.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -148,7 +148,7 @@
       DTS:ObjectName="Gerenciador de Conexões do Excel 3">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\Anexos\FUNCIONARIOS GRUPO 2.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\rodrigo\Downloads\Curso Business Intelligence ETL e Integration Services Parte 2\Arquivos-Aula4\Arquivos - Aula 4\FUNCIONARIOS GRUPO 2.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -169,7 +169,7 @@
       DTS:ObjectName="Ano_Inicial">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">2014</DTS:Property>
+        DTS:Name="ParameterValue">2018</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -15655,7 +15655,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         <NodeLayout
           Size="185,57"
           Id="Package\Transferencia do Esquerda, Direita e Nivel"
-          TopLeft="588,365" />
+          TopLeft="589,365" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
           TopLeft="660.75,69">
@@ -15876,9 +15876,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="57.5,-32"
+              EndConnector="58.5,-32"
               Start="0,0"
-              End="57.5,-24.5">
+              End="58.5,-24.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -15889,13 +15889,13 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
                     Point2="0,-16"
                     Point3="4,-16" />
                   <mssgle:LineSegment
-                    End="53.5,-16" />
+                    End="54.5,-16" />
                   <mssgle:CubicBezierSegment
-                    Point1="53.5,-16"
-                    Point2="57.5,-16"
-                    Point3="57.5,-20" />
+                    Point1="54.5,-16"
+                    Point2="58.5,-16"
+                    Point3="58.5,-20" />
                   <mssgle:LineSegment
-                    End="57.5,-24.5" />
+                    End="58.5,-24.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16043,7 +16043,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16101,7 +16103,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16135,7 +16139,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16169,7 +16175,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16191,7 +16199,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16213,7 +16223,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16235,7 +16247,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16257,7 +16271,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16279,7 +16295,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -16438,7 +16456,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16460,7 +16480,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16666,7 +16688,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16688,7 +16712,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16806,7 +16832,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -16999,7 +17027,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17021,7 +17051,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17043,7 +17075,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17182,7 +17216,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17204,7 +17240,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17322,7 +17360,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -17443,7 +17483,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17465,7 +17507,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17487,7 +17531,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17698,7 +17744,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17720,7 +17768,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17838,7 +17888,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18059,7 +18111,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18081,7 +18135,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18103,7 +18159,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18125,7 +18183,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18276,7 +18336,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18298,7 +18360,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18320,7 +18384,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18496,7 +18562,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18518,7 +18586,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18540,7 +18610,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18562,7 +18634,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18680,7 +18754,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18817,7 +18893,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19151,7 +19229,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19173,7 +19253,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout

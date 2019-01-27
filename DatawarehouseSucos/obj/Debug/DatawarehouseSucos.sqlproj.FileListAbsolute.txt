@@ -21,3 +21,13 @@ D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configu
 D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
 D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
 D:\Victorino Vila\780-olap-sql-server\Vídeos\780-olapsqlserver-video1.4-Configurando o ambiente\Download\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dacpac
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dll
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\Model.xml
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\refactor.xml
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\postdeploy.sql
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\predeploy.sql
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb
+C:\Users\rodrigo\Documents\BI\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.sqlprojAssemblyReference.cache
