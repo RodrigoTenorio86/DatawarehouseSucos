@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-N51LB16\Caleum"
   DTS:DTSID="{C3EEF824-4F54-483E-8B16-821FAEDB5ED3}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.0800.98"
+  DTS:LastModifiedProductVersion="14.0.3002.107"
   DTS:LocaleID="1046"
   DTS:ObjectName="CargaFatos"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{3093B1F5-32C0-414A-8BF9-9DFBB7876CB5}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{071FC764-51D7-44FB-B271-22BE04E8901F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="Conexão com Fontes_DB">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-N51LB16;Initial Catalog=FONTES_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=PC-RTENORIO;Initial Catalog=FONTES_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -33,7 +33,7 @@
       DTS:ObjectName="Conexão com o DW">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-N51LB16;Initial Catalog=DW_SUCOS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=PC-RTENORIO;Initial Catalog=DW_SUCOS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
